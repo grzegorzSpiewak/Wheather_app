@@ -1,0 +1,10 @@
+.user-edit {
+  width: 100%;
+  @media (min-width: $screen-small) {
+    width: 40%;
+  }
+}
+
+.form-edit {
+  width: 100%;
+}

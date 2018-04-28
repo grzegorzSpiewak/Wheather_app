@@ -1,0 +1,39 @@
+//----------------------------------*\
+// Main Colors
+//----------------------------------*/
+$main-background: #66CCFF;
+$light-background: #FFFFFF;
+$page-background: radial-gradient($light-background, $main-background);
+$hover: #CCFFCC;
+$dark-background: #cfcccc;
+$input-background: rgba(102, 204, 255, 0.2);
+//----------------------------------*\
+// Fonts
+//----------------------------------*/
+$main-font: 'Source Sans Pro', sans-serif;
+$font-color: #66CCFF;
+//----------------------------------*\
+// Paddings & margins
+//----------------------------------*/
+$desktop-padding: 4em;
+$mobile-padding: 1em;
+//----------------------------------*\
+// Screen Sizes
+//----------------------------------*/
+$mobile-small:	240px;
+$mobile-large:	320px;
+$tablet-small:	480px;
+$tablet-large:	768px;
+$screen-small:	1024px;
+$screen-large:	1280px;
+$screen-extra-large: 1640px;
+//----------------------------------*\
+// Border
+//----------------------------------*/
+$border-color: #0099CC;
+$radius: 0.25em;
+$circle: 50%;
+//----------------------------------*\
+// Shadows
+//----------------------------------*/
+$shadow: 0 4px 8px 0 rgba(0,0,0,0.12);

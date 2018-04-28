@@ -1,0 +1,6 @@
+@mixin page {
+  width: 100%;
+  max-width: $screen-extra-large;
+  margin: 0 auto;
+  min-height: 80vh;
+}

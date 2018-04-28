@@ -1,0 +1,34 @@
+.toolpip {
+  position: fixed;
+  top: 15%;
+  left: 5%;
+  width: 20%;
+  @include centered;
+  border: 2px solid $border-color;
+  background: $hover;
+  padding: .5em;
+  &__details {
+    flex: 1;
+    &__user{
+      font-size: 1.2em;
+      font-weight: 300;
+    }
+  }
+  &__wheather {
+    flex: 1;
+    @include centered;
+    flex-direction: column;
+    &__pic {
+      width: 3em;
+      height: 3em;
+      &__icon {
+        width: 4em;
+        height: 4em;
+      }
+    }
+    &__description {
+      font-size: 1.2em;
+      font-weight: 300;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.user-card {
+  width: 100%;
+  border: 2px solid $border-color;
+  background: $light-background;
+  border-radius: .2em;
+  padding: .5em;
+  margin: 0 0 .5em 0;
+  text-align: center;
+  &__picture {
+    width: 10em;
+    height: 10em;
+    margin: 0 auto;
+    border: 2px solid $border-color;
+    border-radius: $circle;
+    background: $input-background;
+  }
+  &__details {
+    margin-top: .5em;
+    border-top: 2px solid $border-color;
+    &__user {
+      display: flex;
+      justify-content: flex-start;
+      margin: .1em 0 .1em 0;
+      &__name {
+        padding: .1em;
+        font-size: 1.2em;
+        font-weight: 300;
+      }
+      &__location {
+        padding: .1em;
+        font-size: 1em;
+        font-weight: 300;
+      }
+    }
+  }
+  &__btn {
+    @include btn;
+    &:hover {
+      @include btn-hover;
+    }
+  }
+}

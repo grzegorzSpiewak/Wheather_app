@@ -1,0 +1,27 @@
+@mixin btn {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  touch-action: manipulation;
+  user-select: none;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid transparent;
+  margin: .1em;
+  padding: 0.2em 1em 0.2 1em;
+  background: $main-background;
+  transition: all 250ms ease-in-out;
+  color: $light-background;
+  border-radius: .2em;
+  width: 10em;
+  outline: none;
+}
+
+@mixin btn-hover {
+  background: $hover;
+  border: 1px solid $main-background;
+  cursor: pointer;
+  color: $main-background;
+}

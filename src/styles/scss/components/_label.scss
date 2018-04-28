@@ -1,0 +1,55 @@
+.label {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background: $light-background;
+  border: 2px solid $border-color;
+  margin: .1em;
+  border-radius: .2em;
+  padding: .5em;
+  font-size: .8em;
+  transition: all .5s ease-in;
+  &:hover {
+    background: $hover;
+  }
+  &__logo {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    border: 2px solid $border-color;
+  }
+  &__details {
+    width: 35%;
+    display: flex;
+    justify-content: flex-start;
+    &__user {
+      display: inline;
+      font-weight: 400;
+      font-size: 1.6em;
+    }
+  }
+  &__info {
+    display: none;
+    @media (min-width: $screen-small) {
+      display: block;
+      margin: 0;
+      padding: 0;
+      cursor: progress;
+    }
+    &__icon {
+      font-size: 2em;
+      padding: 0 .5em 0 .5em;
+    }
+  }
+  &__btns {
+    display: flex;
+    flex-direction: column;
+    &__btn {
+      @include btn;
+      &:hover {
+        @include btn-hover;
+      }
+    }
+  }
+}

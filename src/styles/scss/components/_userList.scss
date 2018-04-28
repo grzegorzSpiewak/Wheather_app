@@ -1,0 +1,23 @@
+.users {
+  width: 100%;
+  transition: all .7s ease-in;
+  display: flex;
+  flex-direction: column;
+  @media (min-width: $screen-small) {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  &__list {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    @media (min-width: $screen-small) {
+      width: 40%;
+      margin: 1em;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+#home {
+  width: 100%;
+  max-width: $screen-extra-large;
+  margin: 0 auto;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em;
+}

@@ -1,0 +1,38 @@
+//----------------------------------*\
+// SCSS MIXINS
+//----------------------------------*/
+@import "scss/mixins/flex";
+@import "scss/mixins/btn";
+@import "scss/mixins/shadow";
+//----------------------------------*\
+// BASE MODULES
+//----------------------------------*/
+
+//----------------------------------*\
+// CONFIG MODULES
+//----------------------------------*/
+@import "scss/modules/normalize";
+@import "scss/modules/variables";
+@import "scss/modules/tags";
+@import "scss/modules/forms";
+//----------------------------------*\
+// Components
+//----------------------------------*/
+@import "scss/components/footer";
+@import "scss/components/header";
+@import "scss/components/userList";
+@import "scss/components/label";
+@import "scss/components/toolpip";
+@import "scss/components/userEdit";
+@import "scss/components/addUser";
+@import "scss/components/userCard";
+//----------------------------------*\
+// Containers
+//----------------------------------*/
+@import "scss/containers/home";
+//----------------------------------*\
+// Css animations
+//----------------------------------*/
+@import "scss/animations/fade";
+@import "scss/animations/pop";
+@import "scss/animations/list";

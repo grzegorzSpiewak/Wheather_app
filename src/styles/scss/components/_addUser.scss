@@ -1,0 +1,6 @@
+.new-user {
+  width: 100%;
+  @media (min-width: $screen-small) {
+    width: 40%;
+  }
+}
